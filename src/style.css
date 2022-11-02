@@ -1,0 +1,19 @@
+.input__show {
+  display: block;
+}
+.input__hide {
+  display: none;
+}
+.output,
+.input {
+  padding: 1em;
+}
+.input {
+  direction: ltr;
+  text-align: right;
+}
+
+.katex {
+  direction: ltr;
+  display: inline-block;
+}
