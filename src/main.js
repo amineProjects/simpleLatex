@@ -62,6 +62,7 @@ export default class SimpleLatex {
       console.log("in update", generator.stylesAndScripts(""));
 
       let doc = parse(text, { generator }).domFragment();
+      doc.firstChild.classList.add("ce-paragraph");
       ele.replaceChild(doc, ele.lastChild);
     } catch (e) {
       console.log(e);
