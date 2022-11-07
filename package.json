@@ -10,7 +10,6 @@
   ],
   "author": "benahmed mohammed amine <[contact@benahmedamine.com](mailto:contact@benahmedamine.com)>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
