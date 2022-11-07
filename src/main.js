@@ -5,7 +5,6 @@ import toolboxIcon from "./Latex_logo.svg?raw";
 
 export default class SimpleLatex {
   static get toolbox() {
-    console.log("in tool box", toolboxIcon);
     return {
       title: "Latex",
       icon: toolboxIcon,
@@ -60,6 +59,8 @@ export default class SimpleLatex {
     const text = ele.firstChild.textContent;
     try {
       let generator = new HtmlGenerator({ hyphenate: false });
+      console.log("in update", generator.stylesAndScripts(""));
+
       let doc = parse(text, { generator }).domFragment();
       ele.replaceChild(doc, ele.lastChild);
     } catch (e) {

@@ -20,7 +20,8 @@
     "@editorjs/editorjs": "^2.25.0",
     "vite-svg-loader": "^3.6.0"
   },
-  "dependencies": {
-    "latex.js": "^0.12.4"
+  "peerDependencies": {
+    "latex.js": ">=0.12.4 <1",
+    "@editorjs/editorjs": "2.x"
   }
 }
