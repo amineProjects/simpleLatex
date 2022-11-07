@@ -1,6 +1,6 @@
 import "./style.css";
 import { parse, HtmlGenerator } from "latex.js";
-import "../node_modules/latex.js/dist/css/katex.css";
+import "../../latex.js/dist/css/katex.css";
 import toolboxIcon from "./Latex_logo.svg?raw";
 
 export default class SimpleLatex {
