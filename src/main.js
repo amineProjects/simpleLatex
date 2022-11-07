@@ -105,7 +105,7 @@ export default class SimpleLatex {
   }
 
   set data(data) {
-    this._data = data?.text
+    this._data = data.text
       ? data
       : {
           text: "",
