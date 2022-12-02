@@ -16,12 +16,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^3.2.0",
     "@editorjs/editorjs": "^2.25.0",
+    "vite": "^3.2.0",
     "vite-svg-loader": "^3.6.0"
   },
   "peerDependencies": {
-    "latex.js": ">=0.12.4 <1",
-    "@editorjs/editorjs": "2.x"
+    "@editorjs/editorjs": "2.x",
+    "katex": "0.12.x"
   }
 }
